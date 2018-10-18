@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539849089 source:c:\users\admin\documents\interview_prep\my_strcmp\main.c
+	<stdio.h>
+	<stdlib.h>
+
