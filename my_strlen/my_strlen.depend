@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539841478 source:c:\users\admin\documents\interview_prep\my_strlen\main.c
+	<stdio.h>
+	<stdlib.h>
+
