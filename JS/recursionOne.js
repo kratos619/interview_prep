@@ -49,6 +49,7 @@ function factorial(num){
         factorial *= index;
     }
     console.log(factorial);
+    return factorial;
 }
+console.log(factorial(4));
 
-factorial(4)
