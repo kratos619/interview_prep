@@ -15,4 +15,7 @@ function reverString(name) {
   return rword;
 }
 
+let t1 = performance.now();
 console.log(reverString("gaurav"));
+let t2 = performance.now();
+console.log((t2 - t1) / 1000);
