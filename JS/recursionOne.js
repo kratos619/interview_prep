@@ -56,9 +56,10 @@ function factorial(num){
 console.log(factorial(4));
 
 function factorialRecursion(num){
-    if(num == 0){
-        return 1;
-    return (num * factorialRecursion(num - 1));
+  if (num == 0) {
+    return 1;
+    return num * factorialRecursion(num - 1);
+  }
 }
 
 console.log("factorialRecursion",factorialRecursion(4));
