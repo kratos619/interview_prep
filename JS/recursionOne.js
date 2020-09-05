@@ -63,3 +63,40 @@ function factorialRecursion(num){
 }
 
 console.log("factorialRecursion",factorialRecursion(4));
+
+function sum(num){
+    if(num === 0){
+        return 1;
+    }
+    return num + sum(num - 1);
+}
+
+console.log(sum(10));
+function isOdd(num) {
+    return num % 
+}
+
+
+// functon find oddNumber
+console.log(23455676755 % 2);
+
+
+function isOdd(num){
+    return num % 2 ? false : true
+}
+
+console.log(isOdd(1000));
+
+let arr = [333434,12333123,34433434353,123123123,3242342342,235252524,23455676755,453453345345324];
+
+function findOdds(arr){
+    let farr =[]
+    for (let index = 0; index < arr.length; index++) {
+        if (isOdd(arr[index]) == false ){
+               farr.push(arr[index]);
+        }
+    }
+    return farr;
+}
+
+console.log(findOdds(arr));
